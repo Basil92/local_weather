@@ -1,0 +1,112 @@
+body{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	background-color: rgb(175,238,238);
+}
+h1{
+	font-weight: 800px;
+	font-size: 24px;
+	padding-top: 0px 24px;
+}
+
+a:visited{
+	color: #0000FF;
+}
+
+.img {
+	width: 60vw;
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+span {
+	font-weight: 700;
+}
+
+footer{
+	position: fixed;
+	bottom: 0px;
+	left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#sky-img{
+	width: 300px;
+	height:100px;
+	margin: 0 auto;
+}
+
+#planet { 
+    width:200px;
+    height:200px;
+    background: transparent url(http://cdn3.iconfinder.com/data/icons/nx11/Internet%20-%20Real.png) no-repeat center center;
+    margin: 0 auto;
+
+}
+
+#planet {
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration:8s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration:8s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-timing-function:linear;
+  z-index: -1;
+}
+
+@-webkit-keyframes rotate {
+  from {-webkit-transform:rotate(0deg);}
+  to {  -webkit-transform:rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+  from {-moz-transform:rotate(0deg);}
+  to {  -moz-transform:rotate(360deg);}
+}
+
+#sky-img {
+  -webkit-animation-name: move;
+  -webkit-animation-duration:8s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -moz-animation-name: move;
+  -moz-animation-duration:8s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-timing-function:linear;
+  position: relative;
+}
+
+/*@-webkit-keyframes move {
+	
+	0% {background-position: 75px 50px;}
+	10% {background-position: 100px 50px;}
+	20% {background-position: 125px 60px;}
+	50% {background-position: 150px 70px;}
+	60% {background-position: 175px 60px;}
+	75% {background-position: 225px 50px;}
+	100% {background-position: 300px 10px;}
+
+}*/
+
+@-moz-keyframes move {
+/*	from {background-position: 0 0;}
+	to {background-position: 300px 0;}*/
+	
+	0% {background-position: 0px 50px;}
+	10% {background-position: 25px 45px;}
+	20% {background-position: 50px 40px;}
+	30% {background-position: 75px 35px;}
+	40% {background-position: 100px 30px;}
+	45% {background-position: 112px 27px;}
+	50% {background-position: 125px 25px;}
+	55% {background-position: 138px 27px;}
+	60% {background-position: 150px 30px;}
+	70% {background-position: 175px 35px;}
+	80% {background-position: 200px 40px;}
+	90% {background-position: 225px 45px;}
+	100% {background-position: 250px 50px;}
+}
